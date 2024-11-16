@@ -1,0 +1,543 @@
+/* CSS for the Bookverse website */
+
+/* for average desktop size  */
+  body {
+    background-color: #11151e;
+    text-align: justify;
+  }
+  .footer {
+    background: #202534;
+    margin-top: 5%;
+    padding: 40px 0;
+    color: #8f94a3;
+    display: flex;
+    flex-direction: column; /* Arrange items in a column */
+    align-items: center; 
+    font-size: 18px;
+    width: 100%;
+  }
+
+  .footer_contents {
+    display: flex;  /* Arrange items in a row */  
+    text-align: left;
+    width: 100%;
+  }
+  #footer_description {
+    margin-top: 5%;
+  }
+
+  .footer_section {
+    margin: 0 10%;
+  }
+
+  .footer_section h3 {
+    margin-top: 0;
+    color: white;
+    font-size: 20px;
+  }
+
+  .footer_section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer_section ul li {
+    margin-bottom: 5px;
+  }
+
+  .footer_section ul li a {
+    text-decoration: none;
+    color: #8f94a3;
+  }
+
+  .footer_section ul li a:hover {
+    color: #007bff;
+  }
+
+  .menu_contents {
+    display: flex;
+    margin-top: 1.5%;
+    margin-left: 5%;
+    justify-content: space-between;
+  }
+  .logo_text {
+    display: flex;
+  }
+  .logo_text h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 0px;
+    color: white;
+    margin-top: 1%;
+  }
+
+  .menu_buttons {
+    display: inline-flex;
+    padding: 15px 20px;
+    background-color: #343c54;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+
+  .menu_buttons:hover {
+    background-color: #4c5468; /* Darker color when on hover */
+  }
+  #logo_image {
+    width: 60px;
+    height: 50px;
+  }
+
+  #menu_hr {
+    margin-top: 0px;
+    color: #8f94a3;
+  }
+
+  .books {
+    display: flex;
+    align-items: center;
+  }
+
+  .books img {
+    margin-left: 5%;
+    margin-right: 3%;
+    margin-top: 5%;
+    width: 250px;
+    height: 350px;
+    transition: transform 0.3s ease;
+  }
+  .books img:hover {
+    transform: scale(1.1); /* Scale the image on hover */
+  }
+  .books button {
+    background-color: #8f94a3;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+  }
+  .books button:hover { 
+    background-color: #cc5617;  
+    color: white;
+    transform: scale(1.075);  /* Scale the button on hover */
+  }
+
+  .book_info {
+    text-align: left;
+    color: #8f94a3;
+  }
+
+  h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+  }
+
+  #card_details {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 25%;
+    text-align: left;
+    width: 50%;
+    height: 500px;
+    background-color: #1c1c2b;
+    border-radius: 20px;
+  }
+  #card_details label {
+    color: white;
+    display: inline-block;
+    width: 200px;
+    text-align: right;
+    font-size: 25px;
+    padding-top: 10px;
+    margin-left: 10px;
+  }
+  #card_details input[type="text"] {
+    background-color: #242c3c;
+    display: inline-block;
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border-color: #242c3c;
+    color: white;
+    font-size: 15px;
+  }
+  #card_details input[type="number"],
+  #card_details input[type="submit"] {
+    background-color: #242c3c;
+    font-size: 15px;
+    border-radius: 10px;
+    border-color: #242c3c;
+    color: white;
+    display: inline-block; 
+    width: 185px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  #cvv_info {
+    width: 350px;
+    padding: 8px;
+    margin-left: 210px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #8f94a3;
+  }
+
+  #card_details input[type="submit"] {
+    background-color: #ff0000;
+    border-color: #ff0000;
+    padding: 8px 20px;
+    cursor: pointer;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 210px;
+  }
+  #card_details input[type="submit"]:hover {
+    background-color: #cc0000;
+    color: white;
+  }
+
+  .payment_options {
+    margin-top: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+  }
+  .payment_options hr {
+    width: 50%;
+  }
+
+  .payment_options p {
+    text-align: Left;
+    display: inline-flex;
+    font-size: 20px;
+    margin-left: 25%;
+    margin-top: 0px;
+    color: #8f94a3;
+  }
+  .payment_options img {
+    display: inline-flex;
+    margin-top: 0px;
+    margin-left: 60px;
+    width: 500px;
+    height: 70px;
+  }
+  #mastercard {
+    display: inline-flex;
+    margin-top: 0px;
+    margin-left: 60px;
+    width: 150px;
+    height: 70px;
+  }
+  .payment_options h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+    margin-left: 25%;
+  }
+  .order_summary {
+    margin-top: 5%;
+    text-align: left;
+    margin-left: 25%;
+    font-size: 20px;
+    color: #8f94a3;
+  }
+  .order_summary hr {
+    margin-left: 0%;
+    width: 66%;
+  }
+
+  .order_summary h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+    margin-left: 0%;
+  }
+  #successMessage {
+    margin-left: 25%;
+    color: white;
+  }
+
+
+@media only screen and (min-width: 389px) and (max-width: 411px) {
+  body {
+    margin: 0;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    height: 100vw;
+    width: 100vw;
+    background-color: #11151e;
+    text-align: justify;
+  }
+  .menu_contents {
+    display: flex;
+    margin-top: 1.5%;
+    margin-left: 2%;
+    justify-content: space-between;
+  }
+  .logo_text {
+    display: flex;
+  }
+  .logo_text h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 0px;
+    color: white;
+    margin-top: 1%;
+  }
+
+  .menu_buttons {
+    display: inline-flex;
+    padding: 4px 7px;
+    background-color: #343c54;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 2px;
+    margin-top: 10px;
+    font-size: 12px;
+  }
+
+  .menu_buttons:hover {
+    background-color: #4c5468; /* Darker color on hover */
+  }
+  #logo_image {
+    width: 40px;
+    height: 30px;
+  }
+
+  #menu_hr {
+    margin-top: 0px;
+    color: #8f94a3;
+  }
+
+  .footer {
+    background: #202534;
+    margin-top: 5%;
+    padding: 0;
+    color: #8f94a3;
+    align-items: left; /* Center-align items verticallu */
+    font-size: 18px;
+    width: 100%;
+  }
+
+  .footer_contents {
+    display: inline-block;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+  }
+  #footer_description {
+    padding: 0;
+    margin-left: 0;
+    margin-top: 5%;
+    width: 80%;
+  }
+
+  .footer_section {
+    margin: 0 10%;
+  }
+
+  .footer_section h3 {
+    padding-top: 30px;
+    margin-top: 0;
+    color: white;
+    font-size: 20px;
+  }
+
+  .footer_section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer_section ul li {
+    margin-bottom: 5px;
+  }
+
+  .footer_section ul li a {
+    text-decoration: none;
+    color: #8f94a3;
+  }
+
+  .footer_section ul li a:hover {
+    color: #007bff;
+  }
+
+  .books {
+    flex-direction: column; /* layout changed to a single column */
+    align-items: center; /* Center-align items horizontally */
+  }
+
+  .books img {
+    margin: 5% 10%; /* Center the image horizontally */
+    width: 80%; /* Adjust the width of the image */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .book_info {
+    color: #8f94a3;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .book_info h2 {
+    color: white;
+    font-size: 24px; /* Adjust the font size */
+  }
+
+  .books img:hover {
+    transform: scale(1.1);
+  }
+  .books button {
+    background-color: #8f94a3;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+  }
+  .books button:hover {
+    background-color: #cc5617;
+    color: white;
+    transform: scale(1.075);
+  }
+
+  #card_details {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 4%;
+    text-align: left;
+    width: 92%;
+    height: 500px;
+    background-color: #1c1c2b;
+    border-radius: 20px;
+  }
+  #card_details label {
+    color: white;
+    display: inline-block;
+    width: 35%;
+    text-align: right;
+    font-size: 20px;
+    padding-top: 10px;
+    margin-left: 0px;
+  }
+  #card_details input[type="text"] {
+    background-color: #242c3c;
+    display: inline-block;
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border-color: #242c3c;
+    color: white;
+    font-size: 15px;
+  }
+  #card_details input[type="number"],
+  #card_details input[type="submit"] {
+    background-color: #242c3c;
+    font-size: 15px;
+    border-radius: 10px;
+    border-color: #242c3c;
+    color: white;
+    display: inline-block;
+    width: 85px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  #cvv_info {
+    width: 100px;
+    padding: 8px;
+    margin-left: 36%;
+    margin-bottom: 10px;
+    font-size: 10px;
+    color: #8f94a3;
+  }
+
+  #card_details input[type="submit"] {
+    background-color: #ff0000;
+    border-color: #ff0000;
+    padding: 8px 20px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 36%;
+    width: 110px;
+  }
+  #card_details input[type="submit"]:hover {
+    background-color: #cc0000;
+    color: white;
+  }
+
+  .payment_options {
+    margin-top: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+  }
+  .payment_options hr {
+    width: 92%;
+    margin-left: 4%;
+  }
+
+  .payment_options p {
+    text-align: Left;
+    display: inline-flex;
+    font-size: 15px;
+    margin-left: 4%;
+    margin-top: 0px;
+    color: #8f94a3;
+  }
+  .payment_options img {
+    display: inline-flex;
+    margin-top: 0px;
+    margin-left: 10px;
+    width: 230px;
+    height: 40px;
+  }
+  #mastercard {
+    display: inline-flex;
+    margin-top: 0px;
+    margin-left: 60px;
+    width: 100px;
+    height: 60px;
+  }
+  .payment_options h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+    margin-left: 4%;
+  }
+  .order_summary {
+    margin-top: 10%;
+    text-align: left;
+    margin-left: 4%;
+    font-size: 20px;
+    color: #8f94a3;
+  }
+  .order_summary hr {
+    width: 96%;
+  }
+  .order_summary h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+    margin-left: 0%;
+  }
+
+  #successMessage {
+    margin-top: 0px;
+    margin-left: 4%;
+    color: white;
+  }
+}
