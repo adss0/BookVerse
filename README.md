@@ -24,7 +24,7 @@ A sleek and modern website frontend designed to sell books online. BookVerse pro
    git clone https://github.com/adss0/BookVerse.git
 
 2. Click on index.html:
-   This will take you to the browser where you can view its functionality.
+   - This will take you to the browser where you can view its functionality.
 
 ---
 
